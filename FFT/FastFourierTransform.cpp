@@ -1,7 +1,7 @@
 #include<iostream>
 #include<cmath>
 #include<complex>
-# define pi           3.14159265358979323846 
+# define pi    3.14159265358979323846 
 using namespace std;
 
 
@@ -29,6 +29,7 @@ complex<double>* FastFourierTransform(complex<double>*p,int n)
 	}
 
 	complex<double>*ye=FastFourierTransform(pe,n/2);//Recursive Call
+	
 	complex<double>*yo=FastFourierTransform(po,n/2);//Recursive Call
 
 	complex<double>*y=new complex<double>[n];
