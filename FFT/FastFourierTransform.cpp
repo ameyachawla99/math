@@ -24,6 +24,7 @@
 #include <iostream>  /// for IO operations
 #include <vector>    /// for storing test cases
 
+
 /**
  * @namespace numerical_methods
  * @brief Numerical algorithms/methods
